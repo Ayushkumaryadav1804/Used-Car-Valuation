@@ -15,7 +15,7 @@ This project predicts the selling price of used cars using machine learning. The
 
 ## Dataset
 
-The dataset used in this project is the CarDekho dataset, which can be downloaded from Kaggle at https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho. The dataset contains information about used cars listed on the CarDekho website.
+The dataset used in this project is the quikr dataset, which can be downloaded from Kaggle at https://www.kaggle.com/datasets/raihansoniwala/quikr-cars. The dataset contains information about used cars listed on the quikr website.
 
 ## Requirements
 
@@ -26,22 +26,15 @@ The dataset used in this project is the CarDekho dataset, which can be downloade
 - Seaborn
 - Matplotlib
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/username/repo.git`
-2. Navigate to the project directory: `cd repo`
-3. Install the required packages: `pip install -r requirements.txt`
 
 ## Usage
 
-1. Open the `UsedCarValuation.ipynb` notebook in Jupyter Notebook.
+1. Open the `car_prediction.ipynb` notebook in Jupyter Notebook.
 2. Follow the steps outlined in the notebook to preprocess the data, train and test the used car valuation model.
-3. To use the trained model to predict the selling price of a used car, run the `predict_car_value.py` script with the desired car details as arguments. For example, `python predict_car_value.py Maruti Suzuki Swift 2016 50000 Petrol Dealer Manual`.
+
 
 ## Credits
 
-This project was created by Jane Doe as part of the Machine Learning course at XYZ University. The used car valuation model was built using the Scikit-learn library.
+This project was created by Ayushkumar Yadav as part of my personal project. The used car valuation model was built using the Scikit-learn library.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
